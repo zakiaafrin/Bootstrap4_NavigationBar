@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+/* Smooth Scrolling Effect
+========================== */
+html {
+    scroll-behavior: smooth;
+  }
+
+/* Active nav-link highlighted */
+.nav-link.active {
+    color: whitesmoke! important;
+    background-color: rgb(5, 59, 59);
+    border: 3px double white;
+    border-radius: 5px;
+}
+
+.home {
+    height: 680px; 
+    background-color: darkcyan;
+}
+
+.about {
+    height: 680px; 
+    background-color: rgb(204, 131, 200);
+}
+
+.contact {
+    height: 680px; 
+    background-color: rgb(67, 106, 151);
+}
+
+.blog {
+    height: 680px; 
+    background-color: rgb(185, 218, 182);
+}
